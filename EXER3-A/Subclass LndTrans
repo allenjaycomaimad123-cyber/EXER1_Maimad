@@ -1,0 +1,42 @@
+
+public class LandTransport extends Transportation {
+    public LandTransport(String name) {
+        super(name);
+    }
+
+    @Override
+    public void move() {
+        System.out.println(name + " is moving on land.");
+    }
+}
+
+public class Truck extends LandTransport {
+    public Truck() {
+        super("Truck");
+    }
+}
+
+
+public class SUV extends LandTransport {
+    public SUV() {
+        super("SUV");
+    }
+}
+
+
+public class Tricycle extends LandTransport {
+    public Tricycle() {
+        super("Tricycle");
+    }
+}
+
+public class Motorcycle extends LandTransport {
+    public Motorcycle() {
+        super("Motorcycle");
+    }
+}
+public class Kariton extends LandTransport {
+    public Kariton() {
+        super("Kariton");
+    }
+}
